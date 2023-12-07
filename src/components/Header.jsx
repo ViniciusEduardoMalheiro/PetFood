@@ -3,13 +3,8 @@ import Logo from "../imgs/logo-white.svg";
 
 export function Header() {
   return (
-    <Box
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      marginTop="60px"
-    >
-      <Image src={Logo} />
+    <Box display="flex" justifyContent="center" alignItems="center">
+      <Image src={Logo} boxSize="160px" margin="0" padding="0" />
     </Box>
   );
 }
